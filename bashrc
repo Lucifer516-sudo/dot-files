@@ -7,7 +7,7 @@ eval "$(dircolors)"
 alias ls='ls $LS_OPTIONS'
 alias l='ls $LS_OPTIONS -lah'
 
-alias ll='rptree'
+alias ll='rptree' # This is realpython directory tree generator created using python
 
 # Some more alias to avoid making mistakes:
 alias rm='rm -i'

@@ -67,4 +67,4 @@ echo "Downloaded vim-multiple-cursors"
 sleep 1
 
 clear
-echo "HAve configured ... :)"
+echo "Have configured ... :)"

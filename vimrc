@@ -8,6 +8,9 @@ filetype plugin indent on
 
 map <tab> :tabnext<cr>
 map <s-tab> :tabprevious<cr>
+map <F3> :NERDTreeToggle<cr>
+map <F4> :TagbarToggle<cr>
+map <F5> :!python3 %
 
 " Set this. Airline will handle the rest.
 let g:airline#extensions#ale#enabled = 1
@@ -17,9 +20,6 @@ let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
 
 " simple vimrc for me with pathogen as plugin manager
 " PLugins ::
-" 	ale
-" 	auto-pairs
-" 	vim-airline
 " 	ale
 " 	auto-pairs
 " 	preview-markdown.vim

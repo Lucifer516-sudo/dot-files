@@ -8,8 +8,8 @@ sudo apt install wget curl -y # awesome tigervnc-standalone-server --no-install-
 
 mkdir -p ~/.config/nvim/autoload ~/.config/nvim/bundle && \
 curl -LSso ~/.config/nvim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-rm -rf ~/.bashrc
-wget https://raw.githubusercontent.com/Lucifer516-sudo/dot-files/development/bashrc -O ~/.bashrc
+#rm -rf ~/.bashrc
+#wget https://raw.githubusercontent.com/Lucifer516-sudo/dot-files/development/bashrc -O ~/.bashrc
 cd ~/.config/nvim/bundle/
 git clone -b release https://github.com/neoclide/coc.nvim.git
 git clone https://github.com/preservim/nerdtree.git
@@ -25,4 +25,3 @@ sudo apt clean -y
 sudo apt autoremove -y
 echo "Please type CocInstall coc-pyright' for python3 completions"
 nvim
-

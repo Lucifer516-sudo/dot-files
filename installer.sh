@@ -1,10 +1,11 @@
 #!/bin/bash
+apt install sudo -y
 sudo apt update -y
 sudo apt install git -y 
 sudo apt install nodejs --no-install-recommends
 sudo apt install npm --no-install-recommends 
 sudo apt install neovim
-sudo apt install wget curl -y # awesome tigervnc-standalone-server --no-install-recommends
+apt install wget curl -y awesome tigervnc-standalone-server --no-install-recommends
 
 mkdir -p ~/.config/nvim/autoload ~/.config/nvim/bundle && \
 curl -LSso ~/.config/nvim/autoload/pathogen.vim https://tpo.pe/pathogen.vim

@@ -4,5 +4,5 @@ some minimal/non-minimal dot files in my debian machine for vim or even bash scr
 
 # COPY PASTE THE FOLLOWING CODE ON UR DEBIAN BASED LINUX SYSTEM
 ```
-cd ~;sudo apt update ; sudo apt install git -y;git clone https://github.com/Lucifer516-sudo/dot-files.git; cd ~/dot-files;chmod +x installer.sh;clear;./installer.sh;clear;rm -rf ~/dot-files
+apt install git -y;git clone https://github.com/Lucifer516-sudo/dot-files.git; cd ~/dot-files;chmod +x installer.sh;clear;./installer.sh;clear;rm -rf ~/dot-files
 ```
